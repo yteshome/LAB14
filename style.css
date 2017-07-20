@@ -1,0 +1,46 @@
+body {
+  background-color: powderblue;
+}
+
+nav {
+  text-align: center;
+  height: 50px;
+  width: 80%;
+  font-size: 20px;
+  margin: auto;
+  font-family: neuropol;
+}
+
+
+img {
+  display: block;
+  border: solid 5px black;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+ h1 {
+   font-family: handlee;
+  }
+
+ul {
+  margin-left: 50px;
+}
+
+li {
+  font-family: handlee;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+
+@media (max-width: 900px) {
+      li {
+        font-size: 12px
+      }
+        img {
+          width: 50%;
+          height: 50%;
+              }
+    }
